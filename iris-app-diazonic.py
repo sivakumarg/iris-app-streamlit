@@ -2,7 +2,7 @@
 import pandas as pd
 import streamlit as st
 from sklearn import datasets
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import KNeighborsClassifier 
 
 def user_input():
   sepal_length = st.sidebar.slider('Sepal Length',4.3,7.9,5.4)   # min,max,initial
